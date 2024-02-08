@@ -5,16 +5,13 @@ var swiper = new Swiper(".mySwiper", {
     speed: 1500,
     cssMode: true,
     autoplay: {
-        delay: 2000,
+        delay: 3000,
         disableOnInteraction: false,
+        pauseOnMouseEnter: false,
     },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
     },
 });
 

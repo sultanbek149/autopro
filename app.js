@@ -1,9 +1,11 @@
 const form = document.querySelector('#form')
 
 const username = document.querySelector('#username')
-const order = document.querySelector('#order')
-const address = document.querySelector('#address')
 const phone = document.querySelector('#phone')
+
+const city = document.querySelector('#city')
+const address = document.querySelector('#address')
+
 
 
 form.addEventListener('submit', function (e) {
