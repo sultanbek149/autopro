@@ -921,6 +921,10 @@ a.ssolink {
   transition: color 0.4s ease;
 }
 
+.dropdown:has(.input-box.open) > .title-drop {
+  color: #6398e7;
+}
+
 .modal-window {
   position: fixed;
   background-color: rgba(255, 255, 255, 0.25);
