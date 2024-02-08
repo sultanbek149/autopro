@@ -900,6 +900,7 @@ a.ssolink {
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 10px;
+  transition: color 0.4s ease;
 }
 
 .svg {
