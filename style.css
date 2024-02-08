@@ -739,16 +739,16 @@ a.ssolink {
 }
 
 .animationRightLeft {
-  animation: animationRightLeft 4s ease-in-out infinite;
+  animation: animationRightLeft 7s ease-in-out infinite;
 }
 .animationLeftRight {
-  animation: animationLeftRight 4s ease-in-out infinite;
+  animation: animationLeftRight 7s ease-in-out infinite;
 }
 .tans3s {
-  animation: animationLeftRight 5s ease-in-out infinite;
+  animation: animationLeftRight 8s ease-in-out infinite;
 }
 .tans4s {
-  animation: animationLeftRight 6s ease-in-out infinite;
+  animation: animationLeftRight 9s ease-in-out infinite;
 }
 
 @keyframes animationLeftRight {

@@ -1,63 +1,3 @@
-const form = document.querySelector('#form')
-
-const username = document.querySelector('#username')
-const phone = document.querySelector('#phone')
-
-const city = document.querySelector('#city')
-const address = document.querySelector('#address')
-
-
-
-form.addEventListener('submit', function (e) {
-    e.preventDefault()
-    // sendMessage()
-})
-
-
-const modal = document.querySelector('#open-modal')
-
-function sendMessage() {
-    const text = `Данные с сайта: %0A<b>Имя:</b> <i>${username.value}</i> %0A<b>Заказ:</b> <i>${order.value}</i>%0A<b>Место:</b> <i>${input.innerText}</i> %0A<b>Адресс доставки:</b> <i>${address.value}</i> %0A<b>Телефон:</b> <i>${phone.value}</i>`
-
-
-    const t = "6810656698:AAHf3AV8uPwztVKcNLTSvkxagk6OcUMCnTc"
-    const cid = -1002142817575
-    const url = `https://api.telegram.org/bot${t}/sendMessage?chat_id=${cid}&text=${text}&parse_mode=html`
-
-
-    const xhr = new XMLHttpRequest();
-
-    // Handle the 'load' event for successful completion of the request    
-
-    if (!window.navigator.onLine) return alert("Прошу проверьте свое интернет соединение!!!")
-
-
-    xhr.open("GET", url, true);
-    xhr.send();
-
-    modal.classList.toggle('active')
-
-    reset()
-}
-
-function reset() {
-    username.value = ""
-    order.value = ""
-    phone.value = ""
-    address.value = ""
-}
-
-const close = document.querySelector('#close')
-
-
-// close.onclick = function () {
-//     modal.classList.toggle('active')
-// }
-
-
-
-
-
 const input = document.querySelector(".input-box");
 input.onclick = function () {
     this.classList.toggle("open");
@@ -74,7 +14,6 @@ input.onclick = function () {
 
 const rad = document.querySelectorAll(".radio");
 const checkedRad = document.querySelector('.radio:checked');
-console.log(checkedRad);
 
 input.innerHTML = checkedRad.nextElementSibling.querySelector('.name').innerHTML
 
@@ -103,4 +42,60 @@ function search(searchin) {
 }
 
 
+const form = document.querySelector('#form')
+
+const username = document.querySelector('#username')
+const phone = document.querySelector('#phone')
+
+const city = document.querySelector('#city')
+const address = document.querySelector('#address')
+
+
+form.addEventListener('submit', function (e) {
+    e.preventDefault()
+    sendMessage()
+})
+
+
+// const modal = document.querySelector('#open-modal')
+
+function sendMessage() {
+    const typeOrder = input.innerText
+
+    const text = `Данные с сайта: %0A<b>Имя:</b> <i>${username.value}</i> %0A<b>Телефон:</b> <i>${phone.value}</i>%0A<b>Вид услуги:</b> <i>${typeOrder}</i> %0A<b>Город:</b> <i>${city.value}</i> %0A<b>Адрес:</b> <i>${address.value}</i>`
+
+
+    const t = "6569603838:AAF_gfsCWK5fughj7bevQswTyn4ruxq1t8g"
+    const cid = -1002112977648
+    const url = `https://api.telegram.org/bot${t}/sendMessage?chat_id=${cid}&text=${text}&parse_mode=html`
+
+
+    const xhr = new XMLHttpRequest();
+
+    // Handle the 'load' event for successful completion of the request    
+
+    if (!window.navigator.onLine) return alert("Прошу проверьте свое интернет соединение!!!")
+
+
+    xhr.open("GET", url, true);
+    xhr.send();
+
+    // modal.classList.toggle('active')
+
+    reset()
+}
+
+function reset() {
+    username.value = ""
+    phone.value = ""
+    city.value = ""
+    address.value = ""
+}
+
+const close = document.querySelector('#close')
+
+
+// close.onclick = function () {
+//     modal.classList.toggle('active')
+// }
 
