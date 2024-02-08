@@ -897,7 +897,7 @@ a.ssolink {
   outline: 0.7mm solid #6398e7;
 }
 .title-drop {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   margin-bottom: 10px;
 }
@@ -923,6 +923,7 @@ a.ssolink {
 
 .dropdown:has(.input-box.open) > .title-drop {
   color: #6398e7;
+  transition: color 0.4s ease;
 }
 
 .modal-window {
