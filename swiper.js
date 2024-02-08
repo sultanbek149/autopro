@@ -2,10 +2,11 @@
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     centeredSlides: true,
+    loop: true,
     speed: 1500,
-    cssMode: true,
+    // cssMode: true,
     autoplay: {
-        delay: 3000,
+        delay: 3500,
         disableOnInteraction: false,
         pauseOnMouseEnter: false,
     },
