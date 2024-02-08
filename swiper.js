@@ -3,9 +3,8 @@ var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     centeredSlides: true,
     loop: true,
-    speed: 1500,
+    // speed: 1500,
     cssMode: true,
-    freeMode: true,
     autoplay: {
         delay: 3000,
         // disableOnInteraction: false,
