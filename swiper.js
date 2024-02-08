@@ -6,7 +6,7 @@ var swiper = new Swiper(".mySwiper", {
     speed: 1500,
     // cssMode: true,
     autoplay: {
-        delay: 3500,
+        delay: 3000,
         disableOnInteraction: false,
         pauseOnMouseEnter: false,
     },
