@@ -548,7 +548,7 @@ a {
   /* min-height: 100vh; */
 }
 .loginbackground {
-  min-height: 692px;
+  /* min-height: 692px; */
   position: fixed;
   bottom: 0;
   left: 0;
