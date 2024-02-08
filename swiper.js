@@ -4,11 +4,8 @@ var swiper = new Swiper(".mySwiper", {
     centeredSlides: true,
     loop: true,
     speed: 1500,
-    // cssMode: true,
-    freeMode: {
-        enabled: true,
-        sticky: true,
-    },
+    cssMode: true,
+    freeMode: true,
     autoplay: {
         delay: 3000,
         // disableOnInteraction: false,
