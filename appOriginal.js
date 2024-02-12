@@ -48,7 +48,7 @@ const username = document.querySelector('#username')
 const phone = document.querySelector('#phone')
 
 const city = document.querySelector('#city')
-const address = document.querySelector('#address')
+// const address = document.querySelector('#address')
 
 
 form.addEventListener('submit', function (e) {
@@ -62,7 +62,9 @@ const modal = document.querySelector('#open-modal')
 function sendMessage() {
     const typeOrder = input.innerText
 
-    const text = `Данные с сайта: %0A<b>Имя:</b> <i>${username.value}</i> %0A<b>Телефон:</b> <i>${phone.value}</i>%0A<b>Вид услуги:</b> <i>${typeOrder}</i> %0A<b>Город:</b> <i>${city.value}</i> %0A<b>Адрес:</b> <i>${address.value}</i>`
+    const text = `Данные с сайта: %0A<b>Имя:</b> <i>${username.value}</i> %0A<b>Телефон:</b> <i>${phone.value}</i>%0A<b>Вид услуги:</b> <i>${typeOrder}</i> %0A<b>Город:</b> <i>${city.value}</i>`
+
+    //  %0A<b>Адрес:</b> <i>${address.value}</i>
 
 
     const t = "6569603838:AAF_gfsCWK5fughj7bevQswTyn4ruxq1t8g"
@@ -93,5 +95,5 @@ function reset() {
     username.value = ""
     phone.value = ""
     city.value = ""
-    address.value = ""
+    // address.value = ""
 }
