@@ -25,21 +25,6 @@ rad.forEach((item) => {
 });
 
 const label = document.querySelectorAll(".label-select");
-function search(searchin) {
-    let searchVal = searchin.value;
-    searchVal = searchVal.toUpperCase();
-    label.forEach((item) => {
-        let checkVal = item.querySelector(".name").innerHTML;
-        checkVal = checkVal.toUpperCase();
-        if (checkVal.indexOf(searchVal) === -1) {
-            item.style.display = "none";
-        } else {
-            item.style.display = "flex";
-        }
-        let list = input.nextElementSibling;
-        list.style.maxHeight = list.scrollHeight + "px";
-    });
-}
 
 
 const form = document.querySelector('#form')
@@ -97,3 +82,35 @@ function reset() {
     city.value = ""
     // address.value = ""
 }
+
+const open = document.querySelector('#open')
+const present = document.querySelector('.present')
+const overlay = document.querySelector('.overlay')
+const back = document.querySelector('.back')
+const services = document.querySelectorAll('[data-service]')
+
+
+open.addEventListener('click', () => {
+    present.classList.toggle('active')
+    overlay.style.display = 'block'
+})
+
+back.addEventListener('click', () => {
+    present.classList.toggle('active')
+    overlay.style.display = 'none'
+
+    document.querySelector('#id11').checked = true
+    input.innerHTML = document.querySelector('#id11').nextElementSibling.querySelector('.name').innerHTML;
+
+})
+
+services.forEach((item) => {
+    item.addEventListener("click", () => {
+        input.innerHTML = item.querySelector('.service').innerHTML;
+        present.classList.toggle('active')
+        overlay.style.display = 'none'
+
+
+        input.click();
+    });
+});
