@@ -1014,16 +1014,6 @@ a.ssolink {
   transition: right 200ms ease-in-out;
 }
 
-@media (max-width: 768px) {
-  .present {
-    right: -100vw;
-    width: 100vw;
-  }
-  .overlay {
-    background: transparent;
-  }
-}
-
 .present.active {
   right: 0;
 }
@@ -1103,4 +1093,14 @@ a.ssolink {
   max-width: 42px;
   max-height: 42px;
   margin-right: 14px;
+}
+
+@media (max-width: 768px) {
+  .present {
+    right: -100vw;
+    width: 100vw;
+  }
+  .overlay {
+    background: transparent;
+  }
 }
