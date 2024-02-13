@@ -1019,6 +1019,9 @@ a.ssolink {
     right: -100vw;
     width: 100vw;
   }
+  .overlay {
+    background: transparent;
+  }
 }
 
 .present.active {
