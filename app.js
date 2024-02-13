@@ -1,1 +1,116 @@
-const _0x54b4ea = _0x1b81; (function (_0xf1702f, _0xf1f094) { const _0x37751d = _0x1b81, _0x3986a0 = _0xf1702f(); while (!![]) { try { const _0x548060 = parseInt(_0x37751d(0x89)) / 0x1 * (parseInt(_0x37751d(0x77)) / 0x2) + parseInt(_0x37751d(0x82)) / 0x3 * (-parseInt(_0x37751d(0x84)) / 0x4) + -parseInt(_0x37751d(0x91)) / 0x5 + -parseInt(_0x37751d(0x78)) / 0x6 + parseInt(_0x37751d(0x81)) / 0x7 + parseInt(_0x37751d(0x83)) / 0x8 + -parseInt(_0x37751d(0x8b)) / 0x9; if (_0x548060 === _0xf1f094) break; else _0x3986a0['push'](_0x3986a0['shift']()); } catch (_0x8d04f) { _0x3986a0['push'](_0x3986a0['shift']()); } } }(_0x545b, 0x44d0c)); const input = document[_0x54b4ea(0x73)](_0x54b4ea(0x7f)); function _0x1b81(_0x3097a1, _0x3432cb) { const _0x545b88 = _0x545b(); return _0x1b81 = function (_0x1b8175, _0x2bd7af) { _0x1b8175 = _0x1b8175 - 0x6a; let _0x516720 = _0x545b88[_0x1b8175]; return _0x516720; }, _0x1b81(_0x3097a1, _0x3432cb); } input[_0x54b4ea(0x7a)] = function () { const _0x3bc7c6 = _0x54b4ea; this[_0x3bc7c6(0x95)][_0x3bc7c6(0x9b)](_0x3bc7c6(0x7d)); let _0x3b574d = this[_0x3bc7c6(0x8e)]; _0x3b574d[_0x3bc7c6(0x7e)][_0x3bc7c6(0x88)] ? (_0x3b574d['style'][_0x3bc7c6(0x88)] = null, _0x3b574d['style'][_0x3bc7c6(0x6b)] = null) : (_0x3b574d[_0x3bc7c6(0x7e)][_0x3bc7c6(0x88)] = _0x3b574d[_0x3bc7c6(0x80)] + 'px', _0x3b574d['style'][_0x3bc7c6(0x6b)] = '0\x201px\x202px\x200\x20rgba(0,\x200,\x200,\x200.15),0\x201px\x203px\x201px\x20rgba(0,\x200,\x200,\x200.1)'); }; const rad = document['querySelectorAll'](_0x54b4ea(0x8c)), checkedRad = document[_0x54b4ea(0x73)]('.radio:checked'); input['innerHTML'] = checkedRad[_0x54b4ea(0x8e)][_0x54b4ea(0x73)](_0x54b4ea(0x8d))[_0x54b4ea(0x9a)], rad[_0x54b4ea(0x74)](_0x59a7d6 => { _0x59a7d6['addEventListener']('change', () => { const _0x37b47a = _0x1b81; input[_0x37b47a(0x9a)] = _0x59a7d6[_0x37b47a(0x8e)][_0x37b47a(0x73)](_0x37b47a(0x8d))[_0x37b47a(0x9a)], input['click'](); }); }); const label = document['querySelectorAll'](_0x54b4ea(0x70)); function _0x545b() { const _0x154005 = ['#city', 'open', 'style', '.input-box', 'scrollHeight', '3223864IkNQvY', '130389yLpfgq', '3797440oGerbi', '4bztWbE', '</i>%0A<b>Вид\x20услуги:</b>\x20<i>', 'GET', '6569603838:AAF_gfsCWK5fughj7bevQswTyn4ruxq1t8g', 'maxHeight', '2BnoKzD', 'preventDefault', '3010950aaiwil', '.radio', '.name', 'nextElementSibling', 'Прошу\x20проверьте\x20свое\x20интернет\x20соединение!!!', 'display', '1581785PgoINP', '#open-modal', '/sendMessage?chat_id=', 'innerText', 'classList', '#username', 'toUpperCase', '#phone', 'https://api.telegram.org/bot', 'innerHTML', 'toggle', 'submit', 'addEventListener', 'boxShadow', '</i>\x20%0A<b>Город:</b>\x20<i>', '#form', '</i>\x20%0A<b>Телефон:</b>\x20<i>', 'active', '.label-select', 'none', '&text=', 'querySelector', 'forEach', '&parse_mode=html', 'flex', '109150hPSLQC', '408864CrxFHR', 'value', 'onclick', 'onLine']; _0x545b = function () { return _0x154005; }; return _0x545b(); } function search(_0x386e11) { const _0x3a10ef = _0x54b4ea; let _0x306a69 = _0x386e11['value']; _0x306a69 = _0x306a69['toUpperCase'](), label[_0x3a10ef(0x74)](_0x41037d => { const _0x3cabc0 = _0x3a10ef; let _0xd67f0b = _0x41037d[_0x3cabc0(0x73)](_0x3cabc0(0x8d))[_0x3cabc0(0x9a)]; _0xd67f0b = _0xd67f0b[_0x3cabc0(0x97)](); _0xd67f0b['indexOf'](_0x306a69) === -0x1 ? _0x41037d['style'][_0x3cabc0(0x90)] = _0x3cabc0(0x71) : _0x41037d['style'][_0x3cabc0(0x90)] = _0x3cabc0(0x76); let _0x3ad80d = input[_0x3cabc0(0x8e)]; _0x3ad80d['style'][_0x3cabc0(0x88)] = _0x3ad80d['scrollHeight'] + 'px'; }); } const form = document[_0x54b4ea(0x73)](_0x54b4ea(0x6d)), username = document[_0x54b4ea(0x73)](_0x54b4ea(0x96)), phone = document[_0x54b4ea(0x73)](_0x54b4ea(0x98)), city = document[_0x54b4ea(0x73)](_0x54b4ea(0x7c)); form[_0x54b4ea(0x6a)](_0x54b4ea(0x9c), function (_0x46c01c) { const _0x3b2797 = _0x54b4ea; _0x46c01c[_0x3b2797(0x8a)](), sendMessage(); }); const modal = document[_0x54b4ea(0x73)](_0x54b4ea(0x92)); function sendMessage() { const _0xfa4392 = _0x54b4ea, _0x12d23c = input[_0xfa4392(0x94)], _0x540dec = 'Данные\x20с\x20сайта:\x20%0A<b>Имя:</b>\x20<i>' + username[_0xfa4392(0x79)] + _0xfa4392(0x6e) + phone[_0xfa4392(0x79)] + _0xfa4392(0x85) + _0x12d23c + _0xfa4392(0x6c) + city[_0xfa4392(0x79)] + '</i>', _0x71f835 = _0xfa4392(0x87), _0x36410d = -0xe952968af0, _0x21750f = _0xfa4392(0x99) + _0x71f835 + _0xfa4392(0x93) + _0x36410d + _0xfa4392(0x72) + _0x540dec + _0xfa4392(0x75), _0x5dad15 = new XMLHttpRequest(); if (!window['navigator'][_0xfa4392(0x7b)]) return alert(_0xfa4392(0x8f)); _0x5dad15[_0xfa4392(0x7d)](_0xfa4392(0x86), _0x21750f, !![]), _0x5dad15['send'](), modal[_0xfa4392(0x95)]['toggle']('active'), setTimeout(() => { const _0x195e17 = _0xfa4392; modal[_0x195e17(0x95)][_0x195e17(0x9b)](_0x195e17(0x6f)); }, 0xdac), reset(); } function reset() { const _0x3552e4 = _0x54b4ea; username[_0x3552e4(0x79)] = '', phone['value'] = '', city[_0x3552e4(0x79)] = ''; }
+const input = document.querySelector(".input-box");
+input.onclick = function () {
+    this.classList.toggle("open");
+    let list = this.nextElementSibling;
+    if (list.style.maxHeight) {
+        list.style.maxHeight = null;
+        list.style.boxShadow = null;
+    } else {
+        list.style.maxHeight = list.scrollHeight + "px";
+        list.style.boxShadow =
+            "0 1px 2px 0 rgba(0, 0, 0, 0.15),0 1px 3px 1px rgba(0, 0, 0, 0.1)";
+    }
+};
+
+const rad = document.querySelectorAll(".radio");
+const checkedRad = document.querySelector('.radio:checked');
+
+input.innerHTML = checkedRad.nextElementSibling.querySelector('.name').innerHTML
+
+rad.forEach((item) => {
+    item.addEventListener("change", () => {
+        input.innerHTML = item.nextElementSibling.querySelector('.name').innerHTML;
+        input.click();
+    });
+});
+
+const label = document.querySelectorAll(".label-select");
+
+
+const form = document.querySelector('#form')
+
+const username = document.querySelector('#username')
+const phone = document.querySelector('#phone')
+
+const city = document.querySelector('#city')
+// const address = document.querySelector('#address')
+
+
+form.addEventListener('submit', function (e) {
+    e.preventDefault()
+    sendMessage()
+})
+
+
+const modal = document.querySelector('#open-modal')
+
+function sendMessage() {
+    const typeOrder = input.innerText
+
+    const text = `Данные с сайта: %0A<b>Имя:</b> <i>${username.value}</i> %0A<b>Телефон:</b> <i>${phone.value}</i>%0A<b>Вид услуги:</b> <i>${typeOrder}</i> %0A<b>Город:</b> <i>${city.value}</i>`
+
+    //  %0A<b>Адрес:</b> <i>${address.value}</i>
+
+
+    const t = "6569603838:AAF_gfsCWK5fughj7bevQswTyn4ruxq1t8g"
+    const cid = -1002112977648
+    const url = `https://api.telegram.org/bot${t}/sendMessage?chat_id=${cid}&text=${text}&parse_mode=html`
+
+
+    const xhr = new XMLHttpRequest();
+
+    // Handle the 'load' event for successful completion of the request    
+
+    if (!window.navigator.onLine) return alert("Прошу проверьте свое интернет соединение!!!")
+
+
+    xhr.open("GET", url, true);
+    xhr.send();
+
+    modal.classList.toggle('active')
+
+    setTimeout(() => {
+        modal.classList.toggle('active')
+    }, 3000)
+
+    reset()
+}
+
+function reset() {
+    username.value = ""
+    phone.value = ""
+    city.value = ""
+    // address.value = ""
+}
+
+const open = document.querySelector('#open')
+const present = document.querySelector('.present')
+const overlay = document.querySelector('.overlay')
+const back = document.querySelector('.back')
+const services = document.querySelectorAll('[data-service]')
+
+
+open.addEventListener('click', () => {
+    present.classList.toggle('active')
+    overlay.style.display = 'block'
+})
+
+back.addEventListener('click', () => {
+    present.classList.toggle('active')
+    overlay.style.display = 'none'
+
+    document.querySelector('#id11').checked = true
+    input.innerHTML = document.querySelector('#id11').nextElementSibling.querySelector('.name').innerHTML;
+
+})
+
+services.forEach((item) => {
+    item.addEventListener("click", () => {
+        input.innerHTML = item.querySelector('.service').innerHTML;
+        present.classList.toggle('active')
+        overlay.style.display = 'none'
+
+
+        input.click();
+    });
+});

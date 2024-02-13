@@ -719,7 +719,7 @@ a.ssolink {
 }
 
 .footer-link span:first-child {
-  margin-bottom: -1px;
+  margin-bottom: -3px;
 }
 
 .footer-link span:first-child a {
@@ -893,6 +893,17 @@ a.ssolink {
   transform: translate(0, -50%);
   font-size: 18px;
 }
+
+.list input.vert:not(:checked) + label::before {
+  content: "more_vert";
+  font-family: "Material Icons";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translate(0, -50%);
+  font-size: 18px;
+}
+
 .open {
   outline: 0.7mm solid #6398e7;
 }
@@ -982,4 +993,111 @@ a.ssolink {
 }
 .modal-window div:not(:last-of-type) {
   margin-bottom: 15px;
+}
+
+.present {
+  background: #fff;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  right: -90vw;
+  width: 90vw;
+  bottom: 0;
+  padding-bottom: 20px;
+  color: #000;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px rgba(0, 0, 0, 0.14),
+    0 1px 10px rgba(0, 0, 0, 0.12);
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  transition: right 200ms ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .present {
+    right: -100vw;
+    width: 100vw;
+  }
+}
+
+.present.active {
+  right: 0;
+}
+
+.present .flex {
+  row-gap: 10px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: none;
+}
+
+.tbar {
+  flex: 0 0 auto;
+  order: -100;
+  flex-flow: row nowrap;
+  align-items: center;
+  min-height: 46px;
+  display: flex;
+  padding-inline: 0.6rem;
+  position: relative;
+
+  margin-top: 10px;
+}
+
+.material-symbols-outlined {
+  text-align: center;
+  padding-top: 0px;
+  padding-left: 10px;
+}
+
+.back {
+  margin-top: 5.5px;
+  position: absolute;
+  top: 0;
+}
+
+.tbar-title {
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.0109em;
+}
+
+.present-body {
+  max-width: 380px;
+  padding-inline: 16px;
+  margin: auto;
+  padding-top: 24px;
+}
+
+.present-body .item {
+  padding: 8px 15px 8px;
+  pointer-events: all;
+  border: 1px solid rgba(19, 19, 19, 0.1);
+  border-radius: 12px;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  min-height: 58px;
+
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.present-body .item img {
+  max-width: 42px;
+  max-height: 42px;
+  margin-right: 14px;
 }

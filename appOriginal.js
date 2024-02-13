@@ -86,7 +86,7 @@ function sendMessage() {
 
     setTimeout(() => {
         modal.classList.toggle('active')
-    }, 3500)
+    }, 3000)
 
     reset()
 }
